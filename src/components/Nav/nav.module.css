@@ -1,0 +1,80 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 100%;
+  height: 4.375rem;
+  background-color: #004b3d;
+  padding: 0 1.25rem;
+}
+.navTitle {
+  position: absolute;
+  left: 2%;
+  color: white;
+}
+.navItems {
+  display: flex;
+  gap: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  border: #004b3d;
+}
+
+.navButton {
+  display: flex;
+  background: none;
+  border: none;
+  color: black;
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 0.625rem;
+}
+
+.navButton:hover {
+  background-color: #004b3d;
+}
+
+.authButtons {
+  width: 11rem;
+  height: 2.3rem;
+  margin: 0.75rem;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  border: #004b3d;
+  display: flex;
+  gap: 0.313rem;
+}
+
+.loginButton,
+.signupButton {
+  border: none;
+  margin-top: 0.313rem;
+  margin-left: 5;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.loginButton {
+  background-color: transparent;
+  border-radius: 1rem;
+  height: 2rem;
+  color: black;
+}
+
+.signupButton {
+  background-color: #004b3d;
+  height: 1.8rem;
+  border-radius: 1rem;
+  color: white;
+}
+
+.loginButton:hover {
+  background-color: 004b3d;
+}
+
+.signupButton:hover {
+  background-color: #004b3d;
+}
